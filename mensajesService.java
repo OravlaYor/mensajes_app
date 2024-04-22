@@ -8,7 +8,7 @@ import java.util.SortedMap;
 public class mensajesService {
     public static void crearMensaje(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("escribe tu mensaje socio");
+        System.out.println("escribe tu mensaje");
         String mensajeaPublicar = sc.nextLine();
 
         System.out.println("nombre del autor");
@@ -34,7 +34,7 @@ public class mensajesService {
         System.out.println("escribe tu nuevo mensaje");
         String mensajeNuevo = sc.nextLine();
 
-        System.out.println("indica el id del menaje ");
+        System.out.println("indica el id del mensaje ");
         int id_mensaje = sc.nextInt();
         Mensajes actualizar = new Mensajes();
         actualizar.setId_mensaje(id_mensaje);
